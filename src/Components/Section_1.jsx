@@ -1,5 +1,4 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const Section_1 = () => {
@@ -8,13 +7,11 @@ const Section_1 = () => {
       <Swiper
         className="mySwiper py-4 " 
         id="swiper_1"
-        modules={[Autoplay]}
         slidesPerView={5}
         loop={true}
         speed={11000}
         autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
+          delay: 2500
         }}
         breakpoints={{
           0: { slidesPerView: 1 },

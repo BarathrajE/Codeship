@@ -34,23 +34,23 @@ const Section_5 = () => {
               <span className="font_18 pt-3">CRM Software</span>
             </div>
             <div className="d-flex gap-5   ">
-                <div className="d-flex flex-column align-items-center">
-              <img
-                src={icon_3}
-                alt=""
-                className="icon_background p-2 rounded-circle"
-              />
-                 <span className="icon_background_line p-1 "></span>
+              <div className="d-flex flex-column align-items-center">
+                <img
+                  src={icon_3}
+                  alt=""
+                  className="icon_background p-2 rounded-circle"
+                />
+                <span className="icon_background_line p-1 "></span>
               </div>
               <span className="font_18 pt-3 ">HRMS Software</span>
             </div>
           </div>
           <div className="col-xl-10  pt-5  text-white z-3 position-relative  ">
             <div className="d-flex align-items-center flex-column">
-              <img src={background_image} alt="" className="img-fluid " />
-              <span className="font_28 py-3 ">
+              <img src={background_image} alt="" className="img-fluid pb-3 " />
+              <p className="font_28  ">
                 Custom Made ERP Softwares for your Needs
-              </span>
+              </p>
             </div>
             <div className="text-center ">
               <Button

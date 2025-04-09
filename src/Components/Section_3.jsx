@@ -51,7 +51,7 @@ const Section_3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 ">
+              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12 ">
                 <div className=" br_15  default_section_padding px-4 bg-white  shadow  mb-5 bg-body rounded">
                   <div className="pb-4">
                     <img src={icon_3} alt="" />
@@ -67,7 +67,7 @@ const Section_3 = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12">
                 <div className=" br_15  default_section_padding px-4 bg-white  shadow   bg-body rounded">
                   <div className="pb-4">
                     <img src={icon_4} alt="" />

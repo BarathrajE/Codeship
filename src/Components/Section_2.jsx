@@ -2,8 +2,8 @@ import "../index.css";
 const Section_2 = () => {
   return (
     <div className="background-color  d-flex align-items-center justify-content-center pb-5 pt-4 " >
-      <div className="img_cover d-flex align-items-center justify-content-center  container-customize_map">
-        <div className=" background_world_image d-flex flex-column align-items-center justify-content-center">
+      <div className=" container-customize_map  d-flex align-items-center justify-content-center  ">
+        <div className=" background_world_image d-flex flex-column justify-content-center">
 
         <p className="font_40  pb-3 px-3 text-center font_weight_400   "> 
           Since our founding in 2020, Codeship has rapidly grown into a dynamic

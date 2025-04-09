@@ -58,10 +58,10 @@ const Footer = () => {
               </div>
               <div className="d-flex gap-5 pt-4 mb-3  ">
                 <button className=" background-color_blue px-4 py-3 border-0   rounded-circle">
-                  <i className="fa-solid fa-less-than text-white "></i>
+                  <i className="fa-solid fa-less-than text-white fs-6 "></i>
                 </button>
                 <button className=" background-color_blue px-4 py-3 border-0 rounded-circle ">
-                  <i className="fa-solid fa-greater-than text-white"></i>
+                  <i className="fa-solid fa-greater-than text-white  fs-6 "></i>
                 </button>
               </div>
             </div>

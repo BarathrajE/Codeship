@@ -1,9 +1,9 @@
 // import aws from "../assets/aws.png";
 const Section_6 = () => {
   return (
-    <div className="bg-dark py-5 overflow-hidden position-relative z-2 ">
+    <div className="bg-dark py-5  position-relative z-2 ">
       <div>
-        <div className=" d-flex  gap-3 align-items-center justify-content-center img-_cover pt-5 ">
+        <div className=" d-flex  gap-3 align-items-center justify-content-center pt-5 ">
           <div className="bg-white border br_15 background_size text-center   "></div>
           <div className="bg-white border br_15  background_size"></div>
           <div className="bg-white border br_15  background_size"></div>
@@ -25,13 +25,13 @@ const Section_6 = () => {
             <div className="row">
               <div className="d-flex   justify-content-center align-items-center  gap-3 ">
                 <div className="col-xl-3 col-lg-4 col-md-5 col-sm-3  d-flex gap-3">
-                  <div >
-                    <div className="bg-white border br_15 mb-3   background_size"></div>
-                    <div className="bg-white border br_15    background_size"></div>
+                  <div>
+                    <div className="bg-white border br_15 mb-3 background_size"></div>
+                    <div className="bg-white border br_15 background_size"></div>
                   </div>
                   <div className="">
-                    <div className="bg-white border br_15 mb-3    background_size"></div>
-                    <div className="bg-white border br_15    background_size"></div>
+                    <div className="bg-white border br_15 mb-3 background_size"></div>
+                    <div className="bg-white border br_15 background_size"></div>
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-6 col-md-6 col-sm-8 col-6  ">
@@ -48,37 +48,18 @@ const Section_6 = () => {
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-4 col-sm-2  d-flex gap-3">
                   <div>
-                    <div className="bg-white border br_15 mb-3    background_size"></div>
-                    <div className="bg-white border br_15    background_size"></div>
+                    <div className="bg-white border br_15 mb-3 background_size"></div>
+                    <div className="bg-white border br_15 background_size"></div>
                   </div>
                   <div>
-                    <div className="bg-white border br_15 mb-3    background_size"></div>
-                    <div className="bg-white border br_15    background_size"></div>
+                    <div className="bg-white border br_15 mb-3 background_size"></div>
+                    <div className="bg-white border br_15 background_size"></div>
                   </div>
                 </div>
-
-    
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="d-flex  justify-content-center">
-          <div className="container-customize_box_5">
-            <div className="row">
-              <div className="d-flex justify-content-xl-center justify-content-lg-center justify-content-between  gap-3 pt-3  ">
-                <div className="d-flex justify-content-center gap-3">
-                  <div className="bg-white border br_15 col-2   background_size"></div>
-                  <div className="bg-white border br_15  col-2  background_size"></div>
-                </div>
-
-                <div className="d-flex justify-content-center gap-3">
-                  <div className="bg-white border br_15 col-2  background_size"></div>
-                  <div className="bg-white border br_15 col-2  background_size"></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
         <div className="d-flex  justify-content-center gap-3 pt-xl-4 pt-lg-4 pt-md-3 pt-2  ">
           <div className="bg-white border br_15   background_size"></div>
           <div className="bg-white border br_15   background_size"></div>
@@ -88,16 +69,12 @@ const Section_6 = () => {
           <div className="bg-white border br_15   background_size"></div>
           <div className="bg-white border br_15   background_size"></div>
         </div>
-        <div className=" pt-xl-4 pt-lg-4 pt-md-3 pt-2">
-          <div className="row justify-content-center">
-            <div className="d-flex  gap-3 align-items-center justify-content-center ">
-              <div className="bg-white border br_15 background_size text-center   "></div>
-              <div className="bg-white border br_15  background_size"></div>
-              <div className="bg-white border br_15  background_size"></div>
-              <div className="bg-white border br_15  background_size"></div>
-              <div className="bg-white border br_15  background_size"></div>
-            </div>
-          </div>
+        <div className=" d-flex  gap-3 align-items-center justify-content-center pt-xl-4 pt-lg-4 pt-md-3 pt-2  ">
+          <div className="bg-white border br_15 background_size text-center   "></div>
+          <div className="bg-white border br_15  background_size"></div>
+          <div className="bg-white border br_15  background_size"></div>
+          <div className="bg-white border br_15  background_size"></div>  
+          <div className="bg-white border br_15  background_size"></div>
         </div>
       </div>
     </div>
