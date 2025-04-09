@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="container-customize">
           <div className="row">
             <div className="col-12">
-              <p className="font_54 font_weight_600 pt-5">
+              <p className="font_54 font_weight_600 pt-xl-5 pt-lg-5 p-0">
                 Hear What Our <br /> Customers Are Saying!
               </p>
             </div>
@@ -56,9 +56,13 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="d-flex gap-5 pt-4 text-white pb-5">
-                <i className="fa-solid fa-less-than background-color_blue p-3  rounded-circle"></i>
-                <i className="fa-solid fa-greater-than background-color_blue p-3 rounded-circle"></i>
+              <div className="d-flex gap-5 pt-4 mb-3  ">
+                <button className=" background-color_blue px-4 py-3 border-0   rounded-circle">
+                  <i className="fa-solid fa-less-than text-white "></i>
+                </button>
+                <button className=" background-color_blue px-4 py-3 border-0 rounded-circle ">
+                  <i className="fa-solid fa-greater-than text-white"></i>
+                </button>
               </div>
             </div>
             <div className="col-xl-6 col-lg-6">
@@ -87,72 +91,96 @@ const Footer = () => {
               <p className="font_48 font_weight_400">Tell us about it.</p>
             </div>
 
-            <div className="col-12 col-xl-6">
+            <div className="col-12 col-xl-6 pt-5">
               <div className="row mb-3">
-                <div className="col-12 col-md-6 mb-2">
+                <div className="col-12 col-xl-6 col-md-6">
                   <p>Name & Company</p>
+                  <input
+                    type="text"
+                    className="border-0  border-dark border-bottom bg-transparent fouce"
+                  />
                 </div>
-                <div className="col-12 col-md-6  mb-2">
+                <div className="col-12 col-xl-5  col-md-6 ">
                   <p>E-mail Id</p>
+                  <input
+                    type="text"
+                    className="border-0  border-dark border-bottom bg-transparent fouce"
+                  />
                 </div>
               </div>
               <div className="row mb-3">
-                <div className="col-12 col-md-6 mb-2 border-top border-bottom py-5  border-dark">
+                <div className="col-12 col-md-6 mb-2  ">
                   <p className="text-start">Mobile Number</p>
+                  <input
+                    type="text"
+                    className="border-0  border-dark border-bottom bg-transparent fouce"
+                  />
                 </div>
-                <div className="col-12 col-md-6 mb-2 border-top border-bottom py-5 border-dark">
+                <div className="col-12 col-md-6 mb-2 ">
                   <p>Subject</p>
+                  <input
+                    type="text"
+                    className="border-0  border-dark border-bottom bg-transparent fouce"
+                  />
                 </div>
               </div>
 
               <p className="mb-3 py-2">I’m Interested in</p>
 
-              <div className="row mb-3">
-                <div className="col-6 col-md-3  mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16  ">
+              <div className="row  mb-2 ">
+                <div className="col-6 col-xl-3 col-md-3  ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100  ">
                     Web Development
                   </p>
                 </div>
-                <div className="col-6 col-md-3  mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16">
+                <div className="col-6 col-xl-3 col-md-3 ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100">
                     App Development
                   </p>
                 </div>
-                <div className="col-6 col-md-3  mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16 px-4">
+                <div className="col-6 col-xl-3 col-md-3  ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100">
                     CRM & Tools
                   </p>
                 </div>
-                <div className="col-6 col-md-3 mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16">
+                <div className="col-6 col-xl-3 col-md-3 ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100">
                     Digital Marketing
                   </p>
                 </div>
               </div>
 
-              <div className="row">
-                <div className="col-6 col-md-3  mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16 px-4">
+              <div className="row mb-2">
+                <div className="col-6 col-md-3  col-xl-3  ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100">
                     UI / UX Design
                   </p>
                 </div>
-                <div className="col-6 col-md-3 mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16 px-5  ">
+                <div className="col-6  col-xl-3  col-md-3 ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100 ">
                     AMC
                   </p>
                 </div>
-                <div className="col-6 col-md-3 mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16">
+                <div className="col-6  col-xl-3  col-md-3">
+                  <p className="btn border border-dark rounded-pill font_15 w-100">
                     Servers & Hosting
                   </p>
                 </div>
-                <div className="col-6 col-md-3 mb-2">
-                  <p className="btn border border-secondary rounded-pill font_16 px-xl-4 px-lg-4">
+                <div className="col-6   col-xl-3  col-md-3 ">
+                  <p className="btn border border-dark rounded-pill font_15 w-100 ">
                     Other Services
                   </p>
                 </div>
               </div>
-              <p className="">I’m Interested in</p>
+              <div className="row ">
+                <div className="col-12 ">
+                  <p className="pb-3">Tell us more about your project</p>
+                  <input
+                    type="text"
+                    className="border-0  w-100 border-dark border-bottom bg-transparent fouce"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -160,8 +188,8 @@ const Footer = () => {
 
       <div className="d-flex align-items-center justify-content-center py-5 background-colors">
         <div className="container-customize">
-          <div className="row">
-            <div className="col-xl-4 col-lg-4 font_family mb-4">
+          <div className="row  align-items-center   ">
+            <div className="col-xl-6 col-lg-6 font_family mb-4">
               <div>
                 <p className="font_36  font_weight_500   ">Follow us on :</p>
                 <div className="d-flex gap-4">
@@ -172,8 +200,8 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-8 col-lg-8 pt-3 ">
-              <div className="border-top border-dark pt-5 ">
+            <div className="col-xl-6 col-lg-6 ">
+              <div className="d-flex ">
                 <button className="btn background-color_btn px-5 py-2 border-0 text-white  rounded-pill">
                   Submit
                 </button>
@@ -182,14 +210,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-light text-dark py-5 d-flex align-items-center justify-content-center">
-        <div className="container-customize ">
-          <div className="row ">
-            <div className="col-md-6 mb-4 tex-start">
+      <footer className="bg-light text-dark pt-5 d-flex align-items-center justify-content-center">
+        <div className="container-customize   ">
+          <div className="row">
+            <div className="col-12">
               <h3 className="fw-bold font_80">Let’s Talk</h3>
+            </div>
+          </div>
+          <div className="row  justify-content-between">
+            <div className="col-md-6 col-xl-6 col-lg-6">
               <a
                 href=""
-                className="pb-5 font_32 text-decoration-underline text-dark"
+                className=" font_32 text-decoration-underline text-dark"
               >
                 support@codeship.in
               </a>
@@ -197,66 +229,98 @@ const Footer = () => {
                 No 1, 1st Floor, Narasimhan St, Jothi Nagar, West Mambalam,
                 Chennai, Tamil Nadu 600033
               </p>
-              <div className="ps-5 py-4">
-                <a
-                  href="#"
-                  className="me-3 text-dark text-decoration-underline font_25"
-                >
-                  Privacy
-                </a>
-                <a
-                  href="#"
-                  className="me-3 text-dark text-decoration-underline font_25"
-                >
-                  Terms
-                </a>
-                <a href="#" className="text-dark text-decoration-underline font_25">
-                  Sitemap
-                </a>
-              </div>
             </div>
-            <div className="col-md-6 mb-4 text-xl-end twxt-lg- ">
-              <div className="row">
+            <div className="col-md-6 col-xl-6 col-lg-6 mb-4  ">
+              <div className="row ">
                 <div className="col-6 font_25 pb-5 ">
                   <p>
-                    <a href="#" className="text-dark text-decoration-underline   ">
+                    <a
+                      href="#"
+                      className="text_black_color  text-decoration-underline font_30    "
+                    >
                       Home
                     </a>
                   </p>
-                  <p>
-                    <a href="#" className="text-dark text-decoration-underline ">
+                  <p className="pt-4 ">
+                    <a
+                      href="#"
+                      className="text_black_color text-decoration-underline font_30 "
+                    >
                       About
                     </a>
                   </p>
-                  <p>
-                    <a href="#" className="text-dark text-decoration-underline ">
+                  <p className="pt-4">
+                    <a
+                      href="#"
+                      className="text_black_color text-decoration-underline  font_30 "
+                    >
                       Capabilities
                     </a>
                   </p>
                 </div>
-                <div className="col-6 font_25">
-                  <p>
-                    <a href="#" className="text-dark text-decoration-underline ">
+                <div className="col-6 font_25 ">
+                  <p className="">
+                    <a
+                      href="#"
+                      className="text_black_color text-decoration-underline font_30 "
+                    >
                       Solutions
                     </a>
                   </p>
-                  <p>
-                    <a href="#" className="text-dark text-decoration-underline">
+                  <p className="pt-4">
+                    <a
+                      href="#"
+                      className="text_black_color text-decoration-underline font_30"
+                    >
                       Our Works
                     </a>
                   </p>
-                  <p>
-                    <a href="#" className="text-dark text-decoration-underline">
+                  <p className="pt-4">
+                    <a
+                      href="#"
+                      className="text_black_color text-decoration-underline font_30"
+                    >
                       Contact
                     </a>
                   </p>
                 </div>
-                <small className="font_25 pt-5">@ 2021 - 2024 Codeship pvt Ltd.</small>
               </div>
             </div>
+
           </div>
         </div>
       </footer>
+      <div className="d-flex align-items-center justify-content-center background-colors">
+        <div className="container-customize">
+          <div className="row ">
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12 ps-5">
+              <a
+                href="#"
+                className="me-3 text-dark text-decoration-underline font_25"
+              >
+                Privacy
+              </a>
+              <a
+                href="#"
+                className="me-3 text-dark text-decoration-underline font_25"
+              >
+                Terms
+              </a>
+              <a
+                href="#"
+                className="text-dark text-decoration-underline font_25"
+              >
+                Sitemap
+              </a>
+            </div>
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+              <p className="font_25 text-xl-end text-lg-end  text-md-start text-sm-start pt-sm-2 ">
+                @ 2021 - 2024 Codeship pvt Ltd.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };

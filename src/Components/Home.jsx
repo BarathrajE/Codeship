@@ -2,7 +2,7 @@ import { Button } from "react-bootstrap";
 import background_image from "../assets/Group 38.png";
 const Home = () => {
   return (
-    <div className="d-flex align-items-center justify-content-center py-5 ">
+    <div className="d-flex align-items-center justify-content-center pt-5 pb-3 ">
   <div className="container-customize">
     <div className="row align-items-center justify-content-center ">
       <div className="col-12 col-md-6 col-lg-6 col-xl-7 mb-5 order-md-0  order-1">

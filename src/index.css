@@ -16,14 +16,17 @@
   font-family: "Poppins";
 }
 .container-customize_box_5 {
-  width: 80%;
+  width: 67%;
   height: 100%;
   font-family: "Poppins";
 }
-.container-customize_box_7 {
+/* .container-customize_box_7 {
   width: 60%;
   height: 100%;
   font-family: "Poppins";
+} */
+.text_black_color {
+  color: #282828 !important;
 }
 
 .background-color_btn {
@@ -42,10 +45,12 @@
 #swiper_1 {
   width: 100%;
   height: 13vh;
+
 }
 
 #swiper-slide_1 {
   text-align: center;
+ 
   font-size: 38px;
   display: flex;
   justify-content: center;
@@ -179,7 +184,7 @@
 }
 .inside_text {
   left: -30px;
-  bottom: -30px;
+  bottom: -20px;
 }
 
 @media (max-width: 576px) {
@@ -209,4 +214,6 @@
     height: 53vh !important;
   }
 }
-
+.fouce {
+  outline: none;
+}

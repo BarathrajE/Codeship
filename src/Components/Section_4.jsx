@@ -2,6 +2,7 @@ import arrow from "../assets/right_arrow.png";
 import { Button } from "react-bootstrap";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
+import Slide_data from "./Slide_data";
 
 const Section_4 = () => {
   return (
@@ -22,9 +23,9 @@ const Section_4 = () => {
               </p>
               <Button
                 href="#"
-                className="px-4 py-2 mt-3 background-color_btn rounded-pill border-0 fs-5 d-inline-flex align-items-center"
+                className="px-4 py-2 mt-3 background-color_btn rounded-pill border-0 font_22"
               >
-                All Services{" "}
+                All Services
                 <img src={arrow} alt="arrow icon" className="ms-2" />
               </Button>
             </div>
@@ -46,59 +47,45 @@ const Section_4 = () => {
                 },
               }}
             >
-              <SwiperSlide className=" p-xl-5 p-4 bg-white " id="swiper-slide_2">
-                <div>
-                  <div className="d-flex align-items-center    mb-3">
-                    <i className="fa-solid fa-tv icon_background p-3 fs-3 text-white rounded-circle bg-primary"></i>
-                  </div>
-                  <h2 className="font_58 fw-bold ">Web Development</h2>
-                  <p className="font_24 text-secondary">
-                    Get a high-quality, responsive, and fully optimized website
+              <SwiperSlide
+                className=" p-xl-5 p-4 bg-white "
+                id="swiper-slide_2"
+              >
+                
+                <Slide_data
+                  icon="fa-solid fa-tv"
+                  title="Web Development"
+                  description=" Get a high-quality, responsive, and fully optimized website
                     designed to elevate your business. Our expert team ensures
                     seamless functionality across all devices, enhancing user
-                    experience and driving results for your brand.
-                  </p>
-                  <p className="pt-3 ">
-                    Read More
-                    <i className="fa-solid fa-greater-than ms-1"></i>
-                  </p>
-                </div>
+                    experience and driving results for your brand."
+                />
               </SwiperSlide>
-              <SwiperSlide className="  p-xl-5 p-4 bg-white" id="swiper-slide_2">
-                <div>
-                  <div className="d-flex align-items-center  mb-3">
-                    <i className="fa-solid fa-tv icon_background p-3 fs-3 text-white rounded-circle bg-primary"></i>
-                  </div>
-                  <h2 className="font_58 fw-bold ">App Development</h2>
-                  <p className="font_24 text-secondary">
-                    Get a high-quality, responsive, and fully optimized website
+              <SwiperSlide
+                className=" p-xl-5 p-4 bg-white "
+                id="swiper-slide_2"
+              >
+                <Slide_data
+                  icon="fa-solid fa-tv"
+                  title="App Development"
+                  description=" Get a high-quality, responsive, and fully optimized website
                     designed to elevate your business. Our expert team ensures
                     seamless functionality across all devices, enhancing user
-                    experience and driving results for your brand.
-                  </p>
-                  <p className="pt-3 ">
-                    Read More
-                    <i className="fa-solid fa-greater-than ms-1"></i>
-                  </p>
-                </div>
+                    experience and driving results for your brand."
+                />
               </SwiperSlide>
-              <SwiperSlide className="  p-xl-5 p-4 bg-white" id="swiper-slide_2">
-                <div>
-                  <div className="d-flex align-items-center  mb-3">
-                    <i className="fa-solid fa-tv icon_background p-3 fs-3 text-white rounded-circle bg-primary"></i>
-                  </div>
-                  <h2 className="font_58 fw-bold ">UI/UX Design</h2>
-                  <p className="font_24 text-secondary">
-                    Get a high-quality, responsive, and fully optimized website
+              <SwiperSlide
+                className=" p-xl-5 p-4 bg-white "
+                id="swiper-slide_2"
+              >
+                <Slide_data
+                  icon="fa-solid fa-tv"
+                  title="UI/UX Design"
+                  description=" Get a high-quality, responsive, and fully optimized website
                     designed to elevate your business. Our expert team ensures
                     seamless functionality across all devices, enhancing user
-                    experience and driving results for your brand.
-                  </p>
-                  <p className="pt-3 ">
-                    Read More
-                    <i className="fa-solid fa-greater-than ms-1"></i>
-                  </p>
-                </div>
+                    experience and driving results for your brand."
+                />
               </SwiperSlide>
             </Swiper>
           </div>

@@ -1,13 +1,12 @@
-import "../index.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 const Section_1 = () => {
   return (
-    <div>
+    <div className="">
       <Swiper
-        className="mySwiper py-4 bg-white" 
+        className="mySwiper py-4 " 
         id="swiper_1"
         modules={[Autoplay]}
         slidesPerView={5}
@@ -37,6 +36,8 @@ const Section_1 = () => {
         <SwiperSlide id="swiper-slide_1">Credit karma</SwiperSlide>
       </Swiper>
     </div>
+
+    
   );
 };
 

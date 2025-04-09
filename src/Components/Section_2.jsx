@@ -1,7 +1,7 @@
 import "../index.css";
 const Section_2 = () => {
   return (
-    <div className="background-color  d-flex align-items-center justify-content-center py-5 " >
+    <div className="background-color  d-flex align-items-center justify-content-center pb-5 pt-4 " >
       <div className="img_cover d-flex align-items-center justify-content-center  container-customize_map">
         <div className=" background_world_image d-flex flex-column align-items-center justify-content-center">
 

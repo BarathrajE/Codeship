@@ -8,7 +8,7 @@ const Section_3 = () => {
     <div className="d-flex align-items-center justify-content-center ">
       <div className="container-customize">
         <div className="row">
-          <div className="col-xl-6 text-center text-xl-start  ">
+          <div className="col-xl-6  text-xl-start  ">
             <h2 className="font_58 font_weight_600">Some of the <br />  things br we can do <br /> for you</h2>
             <p className="font_24 ">
               We offer a comprehensive range of <br /> software development services

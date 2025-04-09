@@ -2,6 +2,8 @@ import wing from "../assets/wing.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
 import "swiper/css";
+import arrow from "../assets/right_arrow.png";
+import { Button } from "react-bootstrap";
 
 const Section_7 = () => {
   return (
@@ -21,7 +23,6 @@ const Section_7 = () => {
         className="mySwiper position-relative py-5"
         slidesPerView={2}
         spaceBetween={60}
-      
         modules={[Pagination]}
         centeredSlides={true}
       >
@@ -178,6 +179,15 @@ const Section_7 = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+      <div className="d-flex  justify-content-center pb-3 ">
+        <Button
+          href="#"
+          className="px-4 py-2 mt-3 background-color_btn rounded-pill border-0 font_22 text-center"
+        >
+          View All
+          <img src={arrow} alt="arrow icon" className="ms-2" />
+        </Button>
+      </div>
     </div>
   );
 };
