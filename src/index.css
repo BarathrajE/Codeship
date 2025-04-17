@@ -4,6 +4,10 @@
   width: 95%;
   font-family: "Poppins";
 }
+body {
+  overflow-x: hidden;
+}
+
 .container-customize {
   width: 86%;
   font-family: "Poppins";
@@ -39,18 +43,17 @@
     #8776b6
   ) !important;
 }
+
 .background-colors {
   background-color: #fafafa !important;
 }
 #swiper_1 {
   width: 100%;
   height: 13vh;
-
 }
 
 #swiper-slide_1 {
   text-align: center;
- 
   font-size: 38px;
   display: flex;
   justify-content: center;
@@ -74,13 +77,23 @@
   height: 3vh;
 }
 .rotate {
+  transition: all 0.5s;
+}
+.rotate:hover {
   transform: rotate(-5deg);
+  background-color: #49499d !important;
+  color: #ffffff;
+}
+.hover_icon {
+  left: 24px;
+  top: 30px;
+  transition: all 0.7s;
+  display: none;
+}
+.rotate:hover .hover_icon {
+  display: block;
 }
 
-#swiper_2 {
-  width: 85%;
-  height: 100%;
-}
 
 .background-color_blue {
   background: linear-gradient(
@@ -112,6 +125,7 @@
 .background_size {
   height: 130px;
   width: 130px;
+  text-align: center;
 }
 
 @media (max-width: 1440px) {
@@ -216,4 +230,32 @@
 }
 .fouce {
   outline: none;
+}
+
+/* @media screen and (max-width: 1543px) {
+  .scroll_size:hover .icon_image {
+    transform: translate(0px);
+  }
+} */
+#swiper-slide_1 {
+  animation: scroll-infinite 10s linear infinite;
+}
+@keyframes scroll-infinite {
+  to {
+    transform: translate(-300%);
+  }
+}
+
+.child {
+  position: fixed;
+  top: 0;
+}
+.bg-black {
+  position: relative;
+  z-index: -2;
+  height: 80vh;
+}
+
+.child_2 {
+  transform: translate(-50px,-50px)
 }

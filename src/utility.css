@@ -50,13 +50,13 @@
   font-size: clamp(35px, 2.88vw, 64px);
 }
 .font_62{
-  font-size: clamp(40px, 3.48vw, 62px);
+font-size: clamp(40px, 3.48vw, 62px) !important;
 }
 .font_54{
   font-size: clamp(30px, 3.08vw, 54px);
 }
 .font_58{
-  font-size: clamp(30px, 2.15vw, 54px);
+  font-size: clamp(30px, 3.15vw, 54px) !important;
 }
 .font_48{
   font-size: clamp(26px, 2.08vw, 48px);
@@ -357,16 +357,22 @@
 .default_section_padding{
   padding: 25px 0px;
 }
+.default_section_padding_30{
+  padding:15px 30px 15px 40px  !important;
+}
 
 .default_section_padding_188{
   padding: 0px 180px 0px  0px ;
 }
 .default_section_padding_50{
-  padding: 50px 0px;
+  padding: 50px 0px !important;
+}
+.default_section_padding_150{
+  padding: 150px 0px !important;
 }
 
 .default_section_padding_100{
-  padding: 100px 0px;
+  padding: 50px 50px !important;
 }
 .default_section_padding_100_lr{
   padding: 0px 150px;
@@ -391,11 +397,11 @@
 }
 
 .br_20{
-  border-radius: 20px;
+  border-radius: 20px !important;
 }
 
 .br_30{
-  border-radius: 30px;
+  border-radius: 30px !important;
 }
 
 .br_40{

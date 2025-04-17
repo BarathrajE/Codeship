@@ -1,11 +1,16 @@
 import { Button } from "react-bootstrap";
 import background_image from "../assets/Group 38.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+// import { Autoplay } from "swiper/modules";
 import icon_1 from "../assets/Group.png";
 import icon_2 from "../assets/🦆 icon _rocket launch_.png";
 import icon_3 from "../assets/Group (1).png";
 import icon_4 from "../assets/Vector.png";
+import icon_1_duplicate from "../assets/magnifying_glass.svg";
+import icon_2_duplicate from "../assets/rocket_launch_hover.svg";
+import icon_3_duplicate from "../assets/bug_hover.svg";
+import icon_4_duplicate from "../assets/projects_hover.svg";
+
 import "swiper/css";
 import "../index.css"
 const Home = () => {
@@ -42,12 +47,12 @@ const Home = () => {
         id="swiper_1"
         slidesPerView={5}
         loop={true}
-        modules={[Autoplay]}
+        // modules={[Autoplay]}
         speed={11000}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction:false,
-        }}
+        // autoplay={{
+        //   delay: 2500,
+        //   disableOnInteraction:false,
+        // }}
         breakpoints={{
           0: { slidesPerView: 1 },
           650: { slidesPerView: 2 },
@@ -96,10 +101,11 @@ const Home = () => {
           </div>
           <div className="col-xl-6">
             <div className="row">
-              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-5 rotate">
-                <div className="card_background br_15  default_section_padding px-4 text-white mt-3">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12 mb-5 ">
+                <div className=" br_15  default_section_padding px-4 rotate shadow">
                   <div className="pb-4 ">
-                    <img src={icon_1} alt="" />
+                    <img src={icon_1_duplicate} alt=""  className="position-relative  " />
+                    <img src={icon_1} alt=""  className="position-absolute hover_icon"  />
                     <span className="ps-2  font_28 font_weight_500 ">
                       Discovery
                     </span>
@@ -113,10 +119,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                <div className=" br_15  default_section_padding px-4 bg-white  shadow  mb-5 bg-body rounded">
+              <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12  ">
+                <div className=" br_15  default_section_padding px-4 bg-white rotate  shadow  mb-5 bg-body rounded">
                   <div className="pb-4">
-                    <img src={icon_2} alt="" />
+                    <img src={icon_2} alt="" className="position-relative  " />
+                    <img src={icon_2_duplicate} alt=""  className="position-absolute hover_icon"  />
                     <span className="ps-3  font_28 font_weight_500 ">
                       Development
                     </span>
@@ -130,10 +137,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12 ">
-                <div className=" br_15  default_section_padding px-4 bg-white  shadow  mb-5 bg-body rounded">
+              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12  ">
+                <div className=" br_15  default_section_padding px-4 bg-white  shadow rotate  mb-5 bg-body rounded">
                   <div className="pb-4">
-                    <img src={icon_3} alt="" />
+                    <img src={icon_3} alt=""  className="position-relative  " />
+                    <img src={icon_3_duplicate} alt="" className="position-absolute hover_icon"  />
                     <span className="ps-3  font_28 font_weight_500 ">
                       Testing
                     </span>
@@ -146,10 +154,11 @@ const Home = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12">
-                <div className=" br_15  default_section_padding px-4 bg-white  shadow   bg-body rounded">
+              <div className="col-xl-6  col-lg-6 col-md-6 col-sm-6 col-12 ">
+                <div className=" br_15  default_section_padding px-4 bg-white  shadow  rotate   bg-body rounded">
                   <div className="pb-4">
-                    <img src={icon_4} alt="" />
+                    <img src={icon_4} alt="" className="position-relative  " />
+                    <img src={icon_4_duplicate} alt="" className="position-absolute hover_icon"  />
                     <span className="ps-3  font_28 font_weight_500 ">
                       Project <br />
                     </span>

@@ -4,9 +4,10 @@ import "./utility.css";
 import Home from "./Components/Home";
 import Section_1 from "./Components/Section_1";
 import Footer  from "./Components/Footer";
+
 function App() {
   return (
-    <div >
+    <div  >
     
       <Navbars />
       <Home />
